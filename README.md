@@ -34,6 +34,10 @@
 - **Theme & i18n**: light / dark / follow-system, multilingual support
 - **Performance & offline**: lightweight list queries, local cache, readable offline
 
+## Architecture notes
+
+Clip’s Wails v3 + React layering, binding conventions, event model, and local-first SQLite path are documented in [docs/wails3-design-patterns.md](docs/wails3-design-patterns.md) — a design guide for applying the same patterns in other Wails v3 apps.
+
 ## Building from Source
 
 ### 1. Prepare the Development Environment
